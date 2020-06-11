@@ -24,7 +24,7 @@ class Base: Mappable {
 }
 
 class Response: Mappable {
-    var docs : Docs?
+    var docs = [Docs]()
     var meta : Meta?
     required convenience init?(map: Map) {
         self.init()

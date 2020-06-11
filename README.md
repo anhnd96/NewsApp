@@ -1,1 +1,2 @@
 # NewsApp
+# Sơ bộ
